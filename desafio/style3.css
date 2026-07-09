@@ -1,0 +1,19 @@
+body{
+    
+    background-image: linear-gradient(to right,black,blue);
+    color: antiquewhite;
+   font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+
+}
+input{
+    background-color: rgb(238, 238, 238);
+}
+main{
+    background-color: rgb(48, 96, 138);
+    width: 300px; ;
+     margin: auto;
+     border-radius: 20px;
+     height: 300px;
+}

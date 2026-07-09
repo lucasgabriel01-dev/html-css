@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(to right,rgb(61, 53, 88),rgb(22, 22, 124) );
+}
+main{
+    background-color: white;
+    color: rgb(14, 81, 139);
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1{
+    color: rgb(10, 151, 151);
+}
