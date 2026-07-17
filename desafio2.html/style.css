@@ -2,18 +2,21 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 body{
-    background-color: rgb(73, 68, 68);
+    background-color: rgb(219, 216, 216);
 }
 header{
-background-color: black;
+background-color: rgb(2, 2, 2);
 color: aliceblue;
 text-align: center;
 }
 header>h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 2em;
 }
 header>p{
     padding-bottom: 50px;
@@ -26,14 +29,14 @@ section{
     line-height: 2em;
 }
 section.normal{
-    background-color: rgb(110, 104, 104);
+    background-color: rgb(250, 247, 247);
     padding: 10px;
 }
 section.normal>p{
-    background-color: rgba(129, 126, 126, 0.199);
+   
     width: 300px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 20px 30px 0px;
 }
 section.imagem{
     padding: 10px;
@@ -42,6 +45,7 @@ section.imagem>p{
     background-color: rgba(66, 71, 71, 0.329);
     width: 300px;
     padding:10px ;
+    border-radius: 20px;
 }
 
 footer>p{
