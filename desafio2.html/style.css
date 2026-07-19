@@ -33,19 +33,24 @@ section.normal{
     padding: 10px;
 }
 section.normal>p{
-   
     width: 300px;
     padding: 10px;
     border-radius: 20px 30px 0px;
 }
 section.imagem{
     padding: 10px;
+    background-image: url(images.jpg);
+    background-position:center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem>p{
-    background-color: rgba(66, 71, 71, 0.329);
+    background-color: rgba(31, 32, 32, 0.411);
     width: 300px;
     padding:10px ;
     border-radius: 20px;
+    color: aliceblue;
 }
 
 footer>p{
