@@ -4,9 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table{
+            width: 200px;
+            border-collapse: collapse; 
+            
+        }
+        tr{
+            border: 1px solid black;
+
+        }
+        td{
+            padding: 10px;
+        }
+        th{
+            padding: 10px;
+        }
+
+        tbody>tr:nth-child(2n){
+            background-color: rgb(65, 70, 70);
+        }
+        thead{
+           background-color: black;
+           color: aliceblue;
+        }
+    </style>
 </head>
 <body>
     <h1>tabelas grandes </h1>
-    
+    <table>
+        <thead>
+            <tr>
+                <th>jogos</th>
+                <th> vitorias </th>
+                <th>derrotas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>warzone</td>
+                <td>10</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>fortinaite</td>
+                <td>5</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>free fire </td>
+                <td>100</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>apex</td>
+                <td>5</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>quantidades de vitorias / derrotas  </th>
+                <td colspan="2">500</td>
+               
+            </tr>
+        </tfoot>
+    </table>
 </body>
-</html>
+</html> 
