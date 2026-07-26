@@ -31,5 +31,16 @@ iframe#tela{
     left: 22px;
     width: 269px;
     height: 471px;
-   
+}
+section#rede img{
+    width: 50px; 
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing:border-box ;
+
+}
+section#rede img:hover{
+    border: 2px solid rgb(15, 13, 15);
+    transform: translate(-3px,-3px);
+    transition:transform 1s ;
 }
