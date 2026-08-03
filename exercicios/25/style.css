@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgray;
+}
+header{
+    background-color: rgb(109, 107, 107);
+}
+header>h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+menu{
+    display: block;
+}
+menu > ul{
+    list-style: none;
+}
+menu a {
+    display: block;
+    padding: 5px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    border-top: 4px solid rgb(110, 107, 107);
+}
+menu>ul>li>a:hover{
+    background-color: rgb(108, 111, 114);
+}
+main{
+    width: 90%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+article>p{
+    text-indent: 10px;
+    text-align: justify;
+    padding: 10px;
+}
